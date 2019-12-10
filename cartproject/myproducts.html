@@ -1,0 +1,47 @@
+<html>
+<head><title>myproducts</title></head>
+<body onload="display()" >
+	<script type="text/javascript" src="myproducts.js"></script>
+	<div id="main"   >
+
+
+		<center><h1>ADD PRODUCTS</h1>
+			<h1 style="colour: red; font-size:16px">
+			ID:<input type="number" placeholder="item id" id="id"><br>
+			ITEM:<input type="text" placeholder="name of item" id="name"><br>
+			No of ITEMS:<input type="number"  value=1 id="no"><br>
+			DESCRIPTION:<input type="text" placeholder="about item" id="desc"><br>
+			<BUTTON onclick="objcreation()">Submit</BUTTON>
+		</center>
+
+	</div>
+
+	<div id="show">
+		
+		<center><h1>ITEM LIST</h1></center>
+		<table id="tab" border=1px align=center bgcolor="#f0f0f0">
+			<tr>
+			<th width="100" bgcolor="orange">ITEM ID</th>
+			<th width="100" bgcolor="orange">ITEM NAME</th>
+			<th width="100" bgcolor="orange">No of ITEM</th>
+			<th width="100" bgcolor="orange">ITEM DESC</th>
+			<th width="100" bgcolor="orange">EDIT </th>
+			<th width="100" bgcolor="orange">DELETE</th>
+			<th width="100" bgcolor="orange">ADD CART</th>
+			</tr>
+		</table>
+		<br><br>
+		<center><h1>YOUR CART</h1></center>
+		<table id="tab2" border=1px align=center bgcolor="#f0f0f0">
+			<tr>
+			<th width="100" bgcolor="orange">ITEM ID</th>
+			<th width="100" bgcolor="orange">ITEM NAME</th>
+			<th width="100" bgcolor="orange">ITEM DESC</th>
+			<th width="100" bgcolor="orange">Quantity</th>
+			<th width="100" bgcolor="orange">delete item</th>
+			</tr>
+		</table>
+</div>
+	
+</body>
+</html>
