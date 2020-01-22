@@ -1,0 +1,148 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.page{
+height:auto;
+width:100%;
+}
+
+.logo{
+height:80px;
+width:100%;
+padding:5px 20px 10px 5px ;
+background-color:#797B79;
+}
+
+.logo img{
+float:left;
+}
+.logo h1{
+margin-right:30%;
+font-size:60px;
+text-shadow: 2px 2px 5px black;
+font-family: "Times New Roman", Times, serif;
+}
+
+.logo h1:hover{
+text-decoration:underline;
+transition:10s;
+}
+
+.main{
+height:10px;
+width:100%;
+padding:0px 0px 35px 0px;
+margin-right:40px;
+background-color:#797B79;
+}
+
+.main p
+{
+	position: absolute;
+	color:white;
+	left:80%;
+	top:7%;
+	font-size:20px;
+	color:gold;
+}
+
+header{
+background-color:#797B79;
+height:100%; 
+width:100%;
+beckground-position:center;
+background-size: cover;
+}
+
+ul{
+float:right;
+list-style-type: none;
+margin-top:1px;
+
+}
+
+ul li{
+display:inline-block;
+}
+
+ul li a{
+text-decoration:none;
+color:white;
+padding:5px 20px;
+margin:1px;
+border:1px solid gold;
+}
+
+ul li a:hover{
+background-color:#fff;
+color:black;
+transition:0.8s;
+}
+
+.logo h1{
+color:gold;
+font-size:70px;
+width:auto;
+height:auto;
+text-shadow: 2px 2px 5px black;
+}
+
+
+.science{
+width:100%;
+height:310px;
+}
+.science h1{
+font-size:32px;
+padding:10px 0px 10px 10px;
+background-color:gold;
+color:#797B79;
+text-shadow: 2px 1px 1px black;
+text-align:center;
+}
+
+.science img{
+padding:5px 5px 5px 5px;
+width:370;
+height:250;
+}
+
+.science img:hover{
+width:370;
+height:250;
+box-shadow: 0px 0px 4px 4px gold;
+padding:0px 0px 0px 0px;
+transition:0.4s; 
+}
+
+.geo{
+width:100%;
+height:30%;
+}
+
+.geo h1{
+font-size:32px;
+padding:10px 50px 10px 50px;
+background-color:gold;
+text-align:center;
+color:#797B79;
+text-shadow: 2px 1px 1px black;
+}
+
+.geo img{
+padding:5px 5px 5px 5px;
+width:370;
+height:250;
+
+}
+
+.geo img:hover{
+width:370;
+height:250;
+box-shadow: 0px 0px 4px 4px gold;
+padding:0px 0px 0px 0px;
+transition:0.4s; 
+
+}
